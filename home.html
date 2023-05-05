@@ -7,6 +7,9 @@
     <title>International me </title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <link rel = "stylesheet" href="international.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+          
 </head>
 <body>
 
@@ -16,12 +19,13 @@
       <div>  
         <ul id="navbar">
 
-<li><a class= "active" href= "international.html">Home</a></li>
+<li><a class= "active" href= "home.html">Home</a></li>
 <li><a href= "shop.html">Shop</a></li>
 <li><a href= "blog.html">Blog</a></li>
 <li><a href= "about.html">About</a></li>
 <li><a href= "contact.html">Contact Us</a></li>
-<li><a href= "cart.html"><i class="far fa-shopping-bag"></i></a></li>
+<li id="lg-bag"><a href= "cart.html"><i class="far fa-shopping-bag"></i></a></li>
+<a href="#" id="close"><i class="far fa-times "></i></a>
 
 </ul>
     </div>
@@ -69,8 +73,11 @@
         <section id="product1" class="section-p1">
             <h2>Featured Products</h2>
             <p>Anime Summer Collection</p>
+            
             <div class="pro-container">
-                <div class="pro">
+                <div class="pro"> 
+                    <button class="pre-btn"><img src="/images/arrow.png" alt="arrow"></button>
+            <button class="nxt-btn"><img src="/images/arrow.png" alt="next button"></button>
                     <img src="/images/fpro1.webp" alt="Dragon Ball Gummies">
                     <div class="des">
                         <span>Dragon Ball Z</span>
@@ -150,7 +157,38 @@
                     </div>
                     <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
                 </div>
+                <div class="pro">
+                    <img src="/images/fpro5.webp" alt="pokemon corn puff snacks ">
+                    <div class="des">
+                        <span>Pokemon</span>
+                        <h5>Corn Puff Snacks Chocolate</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$8.50</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
                 </div>
+                <div class="pro">
+                    <img src="/images/fpro6.webp" alt="pokemon wafer">
+                    <div class="des">
+                        <span>Pokemon</span>
+                        <h5>Chocolate wafer</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$6.50</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </section>
             </div>
         </section>
 
