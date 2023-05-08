@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "Ruby Rubber Tree",
+      "description": "The Ruby Rubber Tree is easy for beginners and a great starter plant! They can quickly grow up to 8' inside and do best in bright to moderate indirect light.",
+      "price": 19.99,
+      "image": "./images/product-1.webp"
+    },
+    {
+      "id": 2,
+      "title": "Fiddle Leaf Fig",
+      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
+      "price": 150.99,
+      "image": "./images/product-2.webp"
+    }
+]
