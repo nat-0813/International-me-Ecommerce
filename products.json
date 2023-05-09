@@ -92,7 +92,11 @@
       "description": "Variety Pack KitKat: Rich Green Tea, Dark Chocolate, and White Chocolate flavors",
       "price":15.50 ,
       "image": "/images/pro12.webp"
-    }
+    },
 
-   
+    {
+      "message": "Your post was liked!",
+      "icon": "\uf164"
+    }
+    
 ]
