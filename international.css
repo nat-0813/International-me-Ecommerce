@@ -504,7 +504,7 @@ color:black;
     text-align: center;
 }
 
-#shop.shop-container {
+#product-list li {
 display:flex;
 justify-content:space-between;
 padding-top: 20px;

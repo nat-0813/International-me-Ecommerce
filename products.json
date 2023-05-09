@@ -32,66 +32,66 @@
 
     {
       "id": 5,
-      "title": "",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "Ooh! Chews",
+      "description": "Brazilian Sour Candies",
+      "price": 3.50,
+      "image": "/images/pro5.jpeg"
     },
 
     {
       "id": 6,
-      "title": "Fiddle Leaf Fig",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "Riska",
+      "description": "Japanese Chocolate Stick",
+      "price": 11.50,
+      "image": "/images/pro6.jpeg"
     },
 
     {
       "id": 7,
-      "title": "Fiddle Leaf Fig",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "Karamucho",
+      "description": "Japanese Spicy Potato sticks",
+      "price": 3.50,
+      "image": "/images/pro7.webp"
     },
 
     {
       "id": 8,
-      "title": "Fiddle Leaf Fig",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "Nongshim",
+      "description": "Spicy Shrimp Crackers",
+      "price": 3.50,
+      "image": "/images/pro8.jpeg"
     },
 
     {
       "id": 9,
-      "title": "Fiddle Leaf Fig",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "KurKure",
+      "description": "Indian Masala Munch Chips",
+      "price":6.50 ,
+      "image": "/images/pro9.jpeg"
     },
 
     {
       "id": 10,
-      "title": "Fiddle Leaf Fig",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "Calbee",
+      "description": "Potato Chips & KFC",
+      "price": 6.50,
+      "image": "/images/pro10.jpeg"
     },
 
     {
       "id": 11,
-      "title": "Fiddle Leaf Fig",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "Tre Marie",
+      "description": "Hazelnut Cookies",
+      "price": 6.50,
+      "image": "/images/pro11.webp"
     },
 
     {
       "id": 12,
-      "title": "Fiddle Leaf Fig",
-      "description": "Fiddle Leaf Figs, 'Ficus Lyrata', are gorgeous plants known for their large leaves and vibrant green colors.",
-      "price": 150.99,
-      "image": "./images/product-2.webp"
+      "title": "Nestle Japan",
+      "description": "Variety Pack KitKat: Rich Green Tea, Dark Chocolate, and White Chocolate flavors",
+      "price":15.50 ,
+      "image": "/images/pro12.webp"
     }
 
    

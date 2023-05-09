@@ -46,7 +46,7 @@ fetch('products.json')
     const listItem = document.createElement('li');
     const image = document.createElement('img');
     image.src = product.image;
-    const title = document.createElement('h2');
+    const title = document.createElement('');
     title.textContent = product.title;
     const description = document.createElement('h4');
     description.textContent = product.description;
