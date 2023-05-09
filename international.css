@@ -227,6 +227,7 @@ flex-wrap:nowrap;
 padding:0 10vw;
 overflow-x: auto;
 scroll-behavior: smooth; 
+align-items: center;
 
 }
 
@@ -250,12 +251,12 @@ scroll-behavior: smooth;
 }
 
 .pre-btn {
-  left: 0;
+  left: 0px;
   transform: rotate(180deg);
 }
 
 .nxt-btn {
-  right: 0;
+  right: 0px;
  
 }
 
@@ -280,7 +281,7 @@ opacity: 0.2;
     box-shadow:20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.2s ease;
-    position: relative;
+    /* position: relative; */
 }
 
 #product1 .pro:hover{
