@@ -1,5 +1,6 @@
 
 //Hamburger menu
+//
 const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
@@ -17,18 +18,19 @@ if(close) {
 }
 
 //feature product slider
-
+// trouble: right arrow to appear for styls css needed to change position to relative
 const procontainer = [...document.querySelectorAll('.pro-container')];
-const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+//document.querySelectorAll method: selects all elements with the class name of "pro-container" on pg
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];//same for buttons
 const preBtn = [...document.querySelectorAll('.pre-btn')];
-
-procontainer.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
+// trouble connecting because I mislabled pro-container, had it as pro container
+ procontainer.forEach((item, i) => { //forEach method: iterate over each item in the procontainer array. 
+    let containerDimensions = item.getBoundingClientRect();//code calculates the width of the item's bounding rectangle
+    let containerWidth = containerDimensions.width;//getBoundingClientRect() method) assigns to a variable named containerWidth.
 
     nxtBtn[i].addEventListener('click', () => {
         item.scrollLeft += containerWidth;
-    })
+    })// had nxtBtn snd i reversed
 
     preBtn[i].addEventListener('click', () => {
         item.scrollLeft -= containerWidth;
@@ -67,7 +69,7 @@ procontainer.forEach((item, i) => {
 //   console.error('Error fetching products:', error);
 // });
 
-fetch('products.json')
+fetch('products.json')// trouble linking to json, forgot to include this code
     .then(response => response.json())
     .then(products => {
         // Get the product list container
