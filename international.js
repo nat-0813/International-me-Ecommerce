@@ -1,3 +1,5 @@
+
+//Hamburger menu
 const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
@@ -92,38 +94,41 @@ fetch('products.json')
             description.textContent = product.description;
             description.classList.add('description');
 
-            const span = document.createElement('span');
-            description.textContent = product.description;
-            description.classList.add('description');
 
-            //Create Icon element
-            const icon = document.createElement('i');
-            icon.textContent = product.description;
-            icon.classList.add('product');
-
+           // Create Icon element
+            const stars = document.createElement('stars');
+            stars.textContent = product.description;
+            stars.classList.add('stars');
+            
 
             // Create the price element
             const price = document.createElement('h4');
             price.textContent = `$${product.price.toFixed(2)}`;
 
             // Create the cart button element
-            const cartButton = document.createElement('button');
-            cartButton.textContent = 'Add to Cart';
-            cartButton.classList.add('cart');
+            // const icon = document.createElement('cart');
+            // cart.textContent = 'Add to Cart';
+            // cart.classList.add('cart');
+            const icon = document.createElement('a');
+icon.setAttribute('href', '#');
+const iconI = document.createElement('i');
+iconI.classList.add('fal', 'fa-shopping-cart', 'cart');
+
+
 
             // Append all the elements to the list item
             listItem.appendChild(image);
             listItem.appendChild(title);
             listItem.appendChild(description);
             listItem.appendChild(price);
-            listItem.appendChild(cartButton);
+            icon.appendChild(iconI);
 
             // Append the list item to the product list container
             productList.appendChild(listItem);
             listItem.appendChild(title);
             listItem.appendChild(description);
             listItem.appendChild(price);
-            listItem.appendChild(cartButton);
+            icon.appendChild(iconI);
         });
     })
     .catch(error => {

@@ -4,8 +4,19 @@
       "title": "Cheetos Mexican Street Corn",
       "description": "Spicy Tangy and Cheesy Mexican Street Corn Flavored Cheetos",
       "price": 3.50,
-      "image": "/images/pro1.webp"
-    },
+      "image": "/images/pro1.webp",
+        "icon": "<a href=\"#\"><i class=\"fal fa-shopping-cart cart\"></i></a>",
+        "stars": [
+          { "icon": "fas fa-star" },
+          { "icon": "fas fa-star" },
+          { "icon": "fas fa-star" },
+          { "icon": "fas fa-star" },
+          { "icon": "fas fa-star" }
+        ]
+      },
+      
+    
+    
     {
       "id": 2,
       "title": "Lays",
@@ -28,6 +39,7 @@
       "description": "Hotdog and Regular Corn Flavored Chips",
       "price":4.50 ,
       "image": "/images/pro4.jpeg"
+      
     },
 
     {
@@ -92,11 +104,8 @@
       "description": "Variety Pack KitKat: Rich Green Tea, Dark Chocolate, and White Chocolate flavors",
       "price":15.50 ,
       "image": "/images/pro12.webp"
-    },
-
-    {
-      "message": "Your post was liked!",
-      "icon": "\uf164"
     }
+
+    
     
 ]
