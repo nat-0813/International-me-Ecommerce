@@ -562,7 +562,7 @@ color:black;
 }
 
 .product .cart{
-    width: 40px;
+    /* width: 40px; */
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
@@ -579,7 +579,7 @@ color:black;
 
 
 
-
+/*old css for shop pg
   /* #shop{
     text-align: center;
 }
@@ -699,10 +699,10 @@ text-align: center;
 
 /*Contact page */
 
-/* #page-header .contact-header{
+#page-header .contact-header{
     background-image: url("/images/contactbanner.webp");
 
-} */
+}
 
 #contact-details{
     display:flex;

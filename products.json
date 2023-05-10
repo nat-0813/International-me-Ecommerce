@@ -4,18 +4,10 @@
       "title": "Cheetos Mexican Street Corn",
       "description": "Spicy Tangy and Cheesy Mexican Street Corn Flavored Cheetos",
       "price": 3.50,
-      "image": "/images/pro1.webp",
-        "icon": "<a href=\"#\"><i class=\"fal fa-shopping-cart cart\"></i></a>",
-        "stars": [
-          { "icon": "fas fa-star" },
-          { "icon": "fas fa-star" },
-          { "icon": "fas fa-star" },
-          { "icon": "fas fa-star" },
-          { "icon": "fas fa-star" }
-        ]
+      "image": "/images/pro1.webp"
+        
       },
       
-    
     
     {
       "id": 2,
@@ -44,10 +36,10 @@
 
     {
       "id": 5,
-      "title": "Ooh! Chews",
-      "description": "Brazilian Sour Candies",
-      "price": 3.50,
-      "image": "/images/pro5.jpeg"
+      "title": "Brazi Bites",
+      "description": "Brazilian Cheese Bread",
+      "price": 4.50,
+      "image": "/images/pro5test.webp" 
     },
 
     {
@@ -87,7 +79,7 @@
       "title": "Calbee",
       "description": "Potato Chips & KFC",
       "price": 6.50,
-      "image": "/images/pro10.jpeg"
+      "image": "/images/pro10test.jpeg"
     },
 
     {

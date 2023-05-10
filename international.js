@@ -95,24 +95,15 @@ fetch('products.json')
             description.classList.add('description');
 
 
-           // Create Icon element
-            const stars = document.createElement('stars');
-            stars.textContent = product.description;
-            stars.classList.add('stars');
-            
 
             // Create the price element
             const price = document.createElement('h4');
             price.textContent = `$${product.price.toFixed(2)}`;
 
-            // Create the cart button element
-            // const icon = document.createElement('cart');
-            // cart.textContent = 'Add to Cart';
-            // cart.classList.add('cart');
-            const icon = document.createElement('a');
-icon.setAttribute('href', '#');
-const iconI = document.createElement('i');
-iconI.classList.add('fal', 'fa-shopping-cart', 'cart');
+            //Create the cart button element
+            const cartButton = document.createElement('cartButton');
+            cartButton.textContent = 'Add to Cart';
+            cartButton.classList.add('cart');
 
 
 
@@ -121,14 +112,17 @@ iconI.classList.add('fal', 'fa-shopping-cart', 'cart');
             listItem.appendChild(title);
             listItem.appendChild(description);
             listItem.appendChild(price);
-            icon.appendChild(iconI);
+            listItem.appendChild(cartButton);
+           
 
             // Append the list item to the product list container
             productList.appendChild(listItem);
             listItem.appendChild(title);
             listItem.appendChild(description);
             listItem.appendChild(price);
-            icon.appendChild(iconI);
+            listItem.appendChild(cartButton);
+           
+            
         });
     })
     .catch(error => {
