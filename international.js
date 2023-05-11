@@ -1,28 +1,28 @@
 
 //Hamburger menu
-//
+//target ids below and made them into variables
 const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
-
+//made conditional
 if(bar) {
-    bar.addEventListener('click', () => {
+    bar.addEventListener('click', () => { //method-allows you to specify the type of event to listen for & the function to be executed when event occurs
      nav.classList.add('active');  
     })
 }
 
 if(close) {
-    close.addEventListener('click', () => {
+    close.addEventListener('click', () => {//havent used event listener method
      nav.classList.remove('active');  
     })
-}
+}//trouble knowing where to put the variables in the conditional
 
 //feature product slider
 // trouble: right arrow to appear for styls css needed to change position to relative
 const procontainer = [...document.querySelectorAll('.pro-container')];
 //document.querySelectorAll method: selects all elements with the class name of "pro-container" on pg
-const nxtBtn = [...document.querySelectorAll('.nxt-btn')];//same for buttons
-const preBtn = [...document.querySelectorAll('.pre-btn')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];//same for buttons ^
+const preBtn = [...document.querySelectorAll('.pre-btn')];//made btn variables
 // trouble connecting because I mislabled pro-container, had it as pro container
  procontainer.forEach((item, i) => { //forEach method: iterate over each item in the procontainer array. 
     let containerDimensions = item.getBoundingClientRect();//code calculates the width of the item's bounding rectangle
@@ -81,7 +81,7 @@ fetch('products.json')// trouble linking to json, forgot to include this code
             const listItem = document.createElement('li');
             listItem.classList.add('product');
 
-
+// had to rename css to be able to fetch to json as well
             // Create the image element
             const image = document.createElement('img');
             image.src = product.image;
@@ -96,8 +96,8 @@ fetch('products.json')// trouble linking to json, forgot to include this code
             description.textContent = product.description;
             description.classList.add('description');
 
-
-
+//trouble adding star and cart icons to shop products
+//couldnt figure out, will review it once we work more with json
             // Create the price element
             const price = document.createElement('h4');
             price.textContent = `$${product.price.toFixed(2)}`;
