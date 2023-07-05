@@ -1,6 +1,6 @@
 
 //Hamburger menu
-//target ids below and made them into variables
+// made them into variables and used ids to target them
 const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
@@ -10,7 +10,7 @@ if(bar) {
      nav.classList.add('active');  
     })
 }
-
+//close button to exit slider
 if(close) {
     close.addEventListener('click', () => {//havent used event listener method
      nav.classList.remove('active');  
